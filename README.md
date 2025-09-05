@@ -1,20 +1,22 @@
-# Expo Router and Tailwind CSS
+# Djobina UI
 
-Use [Expo Router](https://docs.expo.dev/router/introduction/) with [Nativewind](https://www.nativewind.dev/v4/overview/) styling.
+React Native (Expo) interface for the Djobina service marketplace. This repository only contains UI elements and mock data.
 
-## Launch your own
+## Getting started
 
-[![Launch with Expo](https://github.com/expo/examples/blob/master/.gh-assets/launch.svg?raw=true)](https://launch.expo.dev/?github=https://github.com/expo/examples/tree/master/with-tailwindcss)
-
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-tailwindcss
+```bash
+npm install
+npm start
 ```
 
-## Deploy
+## Features
 
-Deploy on all platforms with Expo Application Services (EAS).
+- Expo Router navigation with bottom tabs
+- Light and dark themes via NativeWind
+- English/French internationalisation using `react-i18next`
+- OTP onboarding flow mock
+- Simple mock API helpers in `src/mocks`
 
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
+## Usage
+
+Language and theme can be toggled from the **Profile** tab. Specifications are provided in the [`docs/`](./docs) directory.
